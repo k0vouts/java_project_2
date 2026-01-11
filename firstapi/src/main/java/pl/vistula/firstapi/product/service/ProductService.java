@@ -6,7 +6,7 @@ import pl.vistula.firstapi.product.api.responce.ProductResponse;
 import pl.vistula.firstapi.product.domain.Product;
 import pl.vistula.firstapi.product.repository.ProductRepository;
 import pl.vistula.firstapi.product.support.ProductMapper;
-import pl.vistula.firstapi.product.support.ProductExceptionSupplier;
+import pl.vistula.firstapi.product.support.exception.ProductExceptionSupplier;
 import java.util.List;
 
 @Service
