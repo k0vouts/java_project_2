@@ -6,6 +6,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import pl.vistula.firstapi.product.api.request.ProductRequest;
 import pl.vistula.firstapi.product.api.responce.ProductResponse;
+import pl.vistula.firstapi.product.api.request.UpdateProductRequest;
+
 import pl.vistula.firstapi.product.service.ProductService;
 import java.util.List;
 
@@ -37,5 +39,12 @@ public class ProductController {
     public ResponseEntity<ProductResponse> create(@RequestBody ProductRequest productRequest){
         ProductResponse productResponse = productService.create(productRequest);
         return new ResponseEntity<>(productResponse, HttpStatus.CREATED);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<ProductResponse> update(@PathVariable Long id,
+                                                  @RequestBody UpdateProductRequest request) {
+        ProductResponse response = productService.update(id, request);
+        return ResponseEntity.ok(response);
     }
 }
