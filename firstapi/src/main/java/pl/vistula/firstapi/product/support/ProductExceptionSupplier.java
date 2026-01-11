@@ -1,4 +1,4 @@
-package pl.vistula.firstapi.product.support.exception;
+package pl.vistula.firstapi.product.support;
 
 import pl.vistula.firstapi.product.exception.ProductNotFoundException;
 
