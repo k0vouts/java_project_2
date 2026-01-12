@@ -624,56 +624,10 @@ kill -9 <PID>
 
 ## 👨‍💻 Author
 
-**[Your Name]**  
-Vistula University  
-Computer Science / Software Engineering  
+Konstantinos Voutskoglou Vistula University  
+Computer Science / JAVA
 January 2026
 
 ---
 
-## 📝 Assignment Information
 
-- **Course:** Spring Framework Applications
-- **Task:** Task 2 - REST API with CRUD Operations
-- **Instructor:** mgr inż. Dominik Bielecki
-- **Email:** d.bielecki@vistula.edu.pl
-- **Deadline:** January 2026
-
----
-
-## 📖 References
-
-- [Spring Boot Documentation](https://spring.io/projects/spring-boot)
-- [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
-- [Swagger/OpenAPI](https://swagger.io/)
-- [H2 Database](https://www.h2database.com/)
-- [RESTful API Design Best Practices](https://restfulapi.net/)
-
----
-
-## 📜 License
-
-This project is created for educational purposes as part of the Spring Framework course at Vistula University.
-```
-
----
-
-## 📸 **WHERE TO PUT SCREENSHOTS**
-
-### Step 1: Create screenshots folder
-
-In your `firstapi` project root (same level as `src/` and `pom.xml`):
-```
-firstapi/
-├── screenshots/          ← CREATE THIS FOLDER
-│   ├── swagger-ui.png
-│   ├── post-request.png
-│   ├── get-all.png
-│   ├── get-by-id.png
-│   ├── put-request.png
-│   ├── delete-request.png
-│   ├── error-404.png
-│   └── h2-console.png
-├── src/
-├── pom.xml
-└── README.md
